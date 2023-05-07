@@ -10,6 +10,6 @@ class PageViewsController extends Controller
 {
     public function index(Request $request)
     {
-        return PageView::query()->count();
+        return 'Page view count: ' . PageView::query()->count();
     }
 }
