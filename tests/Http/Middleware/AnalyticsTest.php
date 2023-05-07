@@ -1,9 +1,10 @@
 <?php
 
-namespace WdevRs\LaravelAnalyticsLite\Tests;
+namespace WdevRs\LaravelAnalyticsLite\Tests\Http\Middleware;
 
 use Illuminate\Support\Facades\Route;
 use WdevRs\LaravelAnalyticsLite\Http\Middleware\Analytics;
+use WdevRs\LaravelAnalyticsLite\Tests\TestCase;
 
 class AnalyticsTest extends TestCase
 {
